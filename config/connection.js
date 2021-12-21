@@ -1,5 +1,8 @@
+
+require('dotenv').config()
+
 const { Sequelize } = require('sequelize')
 
-const sequelize = new Sequelize('mysql://root:Lohas199312!@localhost:3306/ecommerce_db')
+const sequelize = new Sequelize(process.env.LOCAL_DB_URL)
 
 module.exports = sequelize
