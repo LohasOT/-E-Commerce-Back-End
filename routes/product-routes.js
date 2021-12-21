@@ -8,7 +8,7 @@ router.get('/products', async function (req, res) {
   // find all products
   // be sure to include its associated Category and Tag data
   const products = await Product.findAll({ include: [Category, Tag] })
-  res.json(categories)
+  res.json(products)
 })
 
 // get one product
@@ -16,7 +16,7 @@ router.get('/products/:id', async function (req, res) {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   const products = await Product.findOne({ where: { id }, include: [Category, Tag] })
-  res.json(categories)
+  res.json(products)
 })
 
 // create new product
