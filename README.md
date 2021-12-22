@@ -55,6 +55,6 @@
 
   ## Here is my Youtube video tutorial
 
-  <a href="https://www.youtube.com/watch?v=uL1uDzYUSNU">Youtube Tutorial</a> 
+  <a href="https://www.youtube.com/watch?v=uL1uDzYUSNU">Youtube Tutorial 1</a> 
 
-  <a href="https://www.youtube.com/watch?v=xPoGjLGhvnI">Youtube Tutorial</a> 
+  <a href="https://www.youtube.com/watch?v=xPoGjLGhvnI">Youtube Tutorial 2</a> 
